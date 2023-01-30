@@ -1,14 +1,148 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color:azure;
-    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-header{
-    background-color: rgb(255, 255, 255);
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+image {
+    max-height: 100%;
+}
+
+.navbar{
+    background-color: rgb(56, 56, 56);
+    height: 50px;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar .container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+
+.navbar .container h4{
+    font-weight: bold;
+    line-height: 1;
+    flex-shrink: 1;
+}
+
+.navlinks ul {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.navlinks ul li{
+    margin-left: 20px;
+    flex-shrink: 1;
+}
+
+.header{
+    min-height: 350px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+.header .container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.main-info{
+    flex-basis: 60%;
+    flex-shrink: 7;
+    padding: 15px;
+}
+
+.tutorial{
+    flex-basis: 35%;
+    flex-shrink: 3;
+    min-width: 200px;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    justify-content:center;
     text-align: center;
+    background-color: #ffffff;
+    border: #e3e1e1 solid 1px;
+    border-radius: 5px;
+}
+
+.display{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.display .container{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.display .container .card{
+    max-width: 45%;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 18, 0.2);
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.btn:hover{
+    background-color:#ffffff;
+    color: black;
+}
+
+
+@media(max-width: 750px){
+    .display .container{
+        flex-wrap: wrap;
+    }
+
+    .header .container{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .main-info{
+        flex-basis: 90%;
+        flex-shrink: 7;
+        padding: 5px;
+    }
+
+    .tutorial{
+        flex-basis: 70%;
+    }
 }

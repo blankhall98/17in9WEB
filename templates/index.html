@@ -4,9 +4,78 @@
 
 {%block content%}
 
+<div class="header">
+    <div class="container">
+        <div class="main-info">
+            <h4>Alcanzando los 17 Objetivos de Desarrollo Sostenible dentro de los 9 Limites Planetarios</h4>
+            <p class="text-secondary">El crecimiento de la humanidad se encuentra amanezada por la realidad de la finitez de recursos.
+                Alcanzar un futuro prospero y digno para todos los integrantes de la humanidad puede poner en 
+                riesgo el funcionamiento de sistemas planetarios vitales. 
+            </p>
+            <p class="text-dark">Lograra la humanidad cumplir con los objetivos de desarrollo sostenible sin rebazar la  capacidad
+                del funcionamiento planetario?
+            </p>
+        </div>
+        <div class="tutorial">
+            <p>Entender las bases y el funcionamiento del modelo puede ser dificil.
+                Si necesitas ayuda, puedes ver el video tutorial!
+            </p>
+            <button class="btn btn-dark">Ver Tutorial</button>
+        </div>
+    </div>
+</div>
 
-<div class="container">
-    
+<div class="display">
+
+    <div class="container">
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Objetivos de Desarrollo
+            </div>
+            <img class="card-img-top" src="{{ url_for('static',filename = 'images/global-goals.png') }}" alt="Objetivos de Desarrollo">
+            <div class="card-body">
+              <p class="card-text text-secondary">
+                17 Objetivos para alcanzar un mejor futuro
+              </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Limites Planetarios
+            </div>
+            <img class="card-img-top" src="{{ url_for('static',filename = 'images/planetary-boundaries.png') }}" alt="Limites Planetarios">
+            <div class="card-body">
+              <p class="card-text text-secondary">
+                9 Limites determinados por nuestro planeta
+              </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Modelo Earth3
+            </div>
+            <img class="card-img-top" src="{{ url_for('static',filename = 'images/model.png') }}" alt="Modelo Earth3">
+            <div class="card-body">
+              <p class="card-text text-secondary">
+                Construccion, Escenarios y Predicciones
+              </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Tesis
+            </div>
+            <img class="card-img-top" src="{{ url_for('static',filename = 'images/tesis.png') }}" alt="Tesis">
+            <div class="card-body">
+              <p class="card-text text-secondary">Trabajo escrito, autor y bibliografia</p>
+            </div>
+        </div>
+        
+    </div>
 </div>
 
 {%endblock%}
