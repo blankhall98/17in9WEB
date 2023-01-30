@@ -12,13 +12,13 @@
 
     <div class="navbar">
         <div class="container">
-            <h4>17 en 9</h4>
+            <h4><a href="{{ url_for('index') }}">17 en 9</a></h4>
             <div class="navlinks">
                 <ul>
-                    <li><a href="">Objetivos</a></li>
-                    <li><a href="">Limites</a></li>
-                    <li><a href="">Modelo</a></li>
-                    <li><a href="">Tesis</a></li>
+                    <li><a href="{{ url_for('sdgs') }}">Objetivos</a></li>
+                    <li><a href="{{ url_for('limits') }}">Limites</a></li>
+                    <li><a href="{{ url_for('model') }}">Modelo</a></li>
+                    <li><a href="{{ url_for('thesis') }}">Tesis</a></li>
                 </ul>
             </div>
         </div>

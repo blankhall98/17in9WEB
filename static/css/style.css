@@ -134,6 +134,40 @@ image {
 }
 
 
+.sdg-dashboard{
+    text-align: center;
+    padding-top: 25px;
+    background-color: #fafafa;
+}
+
+
+.sdg-dashboard .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sdg-mini{
+   height: 150px;
+   width: 150px;
+   margin-bottom: 12px;
+   position: relative;
+   border-radius: 5px;
+}
+
+.sdg-mini:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 18, 0.2);
+}
+
+.sdg-mini-img{
+    height: 100%;
+    width: 100%;
+}
+
+
 @media(max-width: 1000px){
     .display .container{
         flex-wrap: wrap;
@@ -154,5 +188,12 @@ image {
 
     .tutorial{
         flex-basis: 70%;
+    }
+
+    .sdg-mini{
+        margin-right: 2.5px;
+        margin-bottom: 7px;
+        width: 100px;
+        height: 100px;
     }
 }
