@@ -170,8 +170,56 @@ image {
 /* TESIS PAGE */
 
 .thesis-dashboard{
+    text-align: center;
     padding-top: 25px;
     background-color: #fafafa;
+}
+
+.thesis-dashboard .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.references{
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+.about-author{
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+.references .ref-cards .card{
+    margin-bottom: 10px;
+}
+
+.references .ref-cards a{
+    color: black;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 700px;
+}
+
+.contact-link{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-link:hover{
+    transform: scale(1.1);
+}
+
+.img-contact{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 @media(max-width: 1000px){
