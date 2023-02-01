@@ -167,6 +167,12 @@ image {
     width: 100%;
 }
 
+/* TESIS PAGE */
+
+.thesis-dashboard{
+    padding-top: 25px;
+    background-color: #fafafa;
+}
 
 @media(max-width: 1000px){
     .display .container{
