@@ -29,40 +29,16 @@ image {
 
 .navbar{
     background-color: rgb(91, 91, 91);
+    padding-left: 35px;
     height: 60px;
-    overflow: hidden;
     color: white;
     border-bottom: black solid 1px;
 }
 
-.navbar:hover{
-    background-color: black;
+.navbar .navbar-brand{
+    font-weight: 500;
 }
 
-.navbar .container{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 10px;
-}
-
-.navbar .container h4{
-    font-weight: bold;
-    line-height: 1;
-    flex-shrink: 1;
-}
-
-.navlinks ul {
-    display: flex;
-    flex-shrink: 1;
-    align-self: center;
-}
-
-.navlinks ul li{
-    margin-left: 20px;
-    flex-shrink: 1;
-}
 
 .header{
     min-height: 450px;
@@ -171,7 +147,7 @@ image {
 
 .thesis-dashboard{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
     background-color: #fafafa;
 }
 
@@ -241,7 +217,7 @@ image {
     }
 
     .tutorial{
-        flex-basis: 70%;
+        flex-basis: 90%;
     }
 
     .sdg-mini{
