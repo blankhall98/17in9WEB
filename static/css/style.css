@@ -28,15 +28,12 @@ image {
 }
 
 .navbar{
-    background-color: rgb(91, 91, 91);
-    padding-left: 35px;
-    height: 60px;
-    color: white;
-    border-bottom: black solid 1px;
+    padding-left: 30px;
 }
 
 .navbar .navbar-brand{
     font-weight: 500;
+    margin-right: 35px;
 }
 
 
