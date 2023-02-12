@@ -1,0 +1,47 @@
+{%extends 'base.html'%}
+
+{%block title%}Modelo{%endblock%}
+
+{%block content%}
+
+<div class="container mt-3">
+    <div class="header d-flex flex-column flex-lg-row bg-white text-dark">
+        <img class="sdg-mini-img" src="{{ url_for('static',filename='images/{}.png'.format(sdg['main-image']) ) }}">
+        <div class="container d-flex flex-column align-content-center p-5">
+            <h1 class="text-uppercase font-weight-bold">{{sdg['short-title']}}</h1>
+            <h3 class="text-secondary">{{sdg['long-title']}}{{A}}</h3>
+                
+         </div>
+    </div>
+</div>
+
+<section>
+    <div class="container d-flex flex-column flex-lg-row align-items-strech my-5">
+        <div class="main-description p-5">
+            <h3>Cual es la situacion?</h3>
+            <p>{{sdg['main-description']}}</p>
+        </div>
+        <div class="goals p-5 bg-primary text-white">
+            <h3>Metas del Objetivo</h3>
+            <ul class="list-group">
+                {%for g in sdg['goals']%}
+                <hr>
+                <l1 class="list-item mb-3">{{g}}</l1>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Aprende mas sobre el Objetivo</h3>
+        <div class="ref-cards">
+            {%for l in sdg['links']%}
+            <div class="card my-3">
+                <div class="card-body">{{l}}</div>
+            </div>
+            {%endfor%}
+        </div>
+    </div>
+</section>
+
+
+{%endblock%}

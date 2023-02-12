@@ -21,7 +21,7 @@
             <p>Entender las bases y el funcionamiento del modelo puede ser dificil.
                 Si necesitas ayuda, puedes ver el video tutorial!
             </p>
-            <button class="btn btn-dark">Ver Tutorial</button>
+            <a href="{{ url_for('onwork') }}"><button class="btn btn-dark btn-lg">Ver Tutorial</button></a>
         </div>
     </div>
 </div>
@@ -64,7 +64,7 @@
             <div class="card-header">
                 Modelo Earth3
             </div>
-            <a href="{{ url_for('model') }}">
+            <a href="{{ url_for('onwork') }}">
                 <img class="card-img-top" src="{{ url_for('static',filename = 'images/model.png') }}" alt="Modelo Earth3">
             </a>
             
