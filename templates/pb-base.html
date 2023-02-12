@@ -10,104 +10,22 @@
         <br>
         <div class="d-md-flex flex-wrap justify-content-around">
 
-            <div class="card bg-warning text-white m-2">
+            {%for b in pb%}
+            <div class="card mb-3" style="width: 26rem;">   
                 <div class="card-body">
-                    <h5 class="card-title">
-                        Cambio Climatico
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
+                  <h5 class="card-title">{{pb[b]['pb-title']}}</h5>
+                  <p class="card-text">{{pb[b]['small-description']}}</p>
+                  <div class="card mb-5">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Limite Cuantificado:</li>
+                      <li class="list-group-item">Estado Actual:</li>
+                      <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}"></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-dark btn-lg">Aprende +</a>
                 </div>
             </div>
-
-            <div class="card bg-success text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Acidificacion de los Oceanos
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-success text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Agotamiento de Ozono Estratosferico
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-danger text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Interferencia con los ciclos globales de fosforo y nitrogeno
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-danger text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Tasa de Perdida de Biodiversidad
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-success text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Uso de Agua Dulce
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-warning text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Cambios en el Sistema de Tierras
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-dark text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Carga de Aerosoles
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
-
-            <div class="card bg-dark text-white m-2">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Contaminacion Quimica
-                    </h5>
-                    <p class="card-text">
-                        Small description of the planetary boundary
-                    </p>
-                </div>
-            </div>
+            {%endfor%}
 
         </div>
     </div>

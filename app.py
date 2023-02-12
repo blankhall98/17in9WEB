@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, url_for
 
 ### self-made imports
 from static.info.sdg.sdg import SDG
+from static.info.pb.pb import PB
 
 #APP CONFIG ----------
 app = Flask(__name__)
@@ -20,7 +21,7 @@ def sdgs():
 
 @app.route('/limites')
 def limits():
-    return render_template('pb-base.html')
+    return render_template('pb-base.html',pb=PB)
 
 @app.route('/modelo')
 def model():
