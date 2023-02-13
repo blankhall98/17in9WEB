@@ -35,9 +35,13 @@ def thesis():
 def onwork():
     return render_template('onwork.html')
 
-@app.route('/SDG/<sdg_id>')
+@app.route('/ods/<sdg_id>')
 def sdg(sdg_id):
     return render_template('specific-sdg.html',sdg=SDG[sdg_id])
+
+@app.route('/limites/<limit_id>')
+def limit(limit_id):
+    return render_template('specific-pb.html',pb=PB[limit_id])
 
 #MAIN ----------
 def main():

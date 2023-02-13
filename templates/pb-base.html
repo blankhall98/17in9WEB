@@ -8,28 +8,38 @@
     <div class="container text-center p-1">
         <h3>Limites Planetarios</h3>
         <br>
-        <div class="d-md-flex flex-wrap justify-content-around">
+        <p class="text-secondary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eum, esse excepturi repellendus minima modi molestiae earum sint facilis provident quos qui vel possimus eaque iusto ab ratione omnis ut.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit aut voluptas facere consectetur hic assumenda tempore, deserunt fugiat pariatur dolorem, ipsa reiciendis, molestiae earum accusamus eum itaque dicta praesentium.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos pariatur molestiae ad nihil laudantium, tempore recusandae atque laboriosam vero numquam reprehenderit libero voluptas saepe esse deleniti id repellat, dolorem minus!
+        </p>
+        <br>
+    </div>
+</div>
 
+<section class="pt-5">
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-center justify-content-md-between">
             {%for b in pb%}
-            <div class="card mb-3" style="width: 26rem;">   
+            <div class="card mb-5 text-center" style="width: 25rem;">   
                 <div class="card-body">
-                  <h5 class="card-title">{{pb[b]['pb-title']}}</h5>
+                  <h5 class="card-title mb-3">{{pb[b]['pb-title']}}</h5>
+                  <hr>
                   <p class="card-text">{{pb[b]['small-description']}}</p>
-                  <div class="card mb-5">
+                  <div class="card mb-3">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Limite Cuantificado:</li>
+                      <li class="list-group-item">Limite Cuantificado: {{ pb[b]['limit'] }}</li>
                       <li class="list-group-item">Estado Actual:</li>
-                      <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}"></li>
+                      <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}">{{ pb[b]['current'] }}</li>
                     </ul>
                   </div>
-                  <a href="#" class="btn btn-dark btn-lg">Aprende +</a>
+                  <a href="{{ url_for('limit',limit_id=b) }}" class="btn btn-dark btn-lg">Aprende +</a>
                 </div>
             </div>
             {%endfor%}
-
         </div>
     </div>
-</div>
+</section>
 
 
 
