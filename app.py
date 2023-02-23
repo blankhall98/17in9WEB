@@ -37,7 +37,7 @@ def onwork():
 
 @app.route('/ods/<sdg_id>')
 def sdg(sdg_id):
-    return render_template('specific-sdg.html',sdg=SDG[sdg_id])
+    return render_template('specific-sdg.html',sdg=SDG[sdg_id],id=int(sdg_id))
 
 @app.route('/limites/<limit_id>')
 def limit(limit_id):

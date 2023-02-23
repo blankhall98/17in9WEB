@@ -17,7 +17,7 @@
 
 <section>
     <div class="container d-flex flex-column flex-lg-row align-items-strech my-5">
-        <div class="main-description p-5">
+        <div class="main-description p-3 p-md-5">
             <h3>¿Cuál es la situación?</h3>
             {%for d in sdg['main-description']%}
             <p>{{d}}</p>
@@ -33,12 +33,33 @@
             </ul>
         </div>
     </div>
+    <div class="conatiner d-flex justify-content-around mb-5">
+        {% set next_id = (id+1)|string %}
+        {% set prev_id = (id-1)|string %}
+        {%if id == 1%}
+            {% set prev_id = '17'%}
+        {%endif%}
+        {%if id == 17 %}
+            {% set next_id = '1' %}
+        {%endif%}
+        <a href="{{ url_for('sdg',sdg_id=prev_id) }}">
+            <div class="btn btn-dark btn-lg">Objetivo Anterior</div>
+        </a>
+        <a href="{{ url_for('sdg',sdg_id=next_id) }}">
+            <div class="btn btn-dark btn-lg">Siguiente Objetivo</div>
+        </a>
+    </div>
     <div class="container">
         <h3>Aprende más sobre el Objetivo</h3>
         <div class="ref-cards">
             {%for l in sdg['links']%}
+            {% set link = l['link'] %}
             <div class="card my-3">
-                <div class="card-body">{{l}}</div>
+                <a href={{link}} target="_blank">
+                    <div class="card-body text-dark">
+                        {{l['link-name']}}
+                    </div>
+                </a>
             </div>
             {%endfor%}
         </div>

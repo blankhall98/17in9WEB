@@ -15,8 +15,8 @@ SDG = {
             "Poner en práctica a nivel nacional sistemas y medidas apropiadas de protección social para todos y, para 2030, lograr una amplia cobertura de los pobres y los más vulnerables."
         ],
         "links": [
-            "http://www.undp.org/content/undp/es/home/",
-            "http://www.bancomundial.org/"
+            {'link-name': 'Naciones Unidas - Objetivo 1',
+             'link': 'https://www.un.org/sustainabledevelopment/es/poverty/'}
         ]
     },
 
@@ -37,7 +37,10 @@ SDG = {
             "Para 2030, duplicar la productividad agrícola y los ingresos de los productores de alimentos en pequeña escala, entre otras cosas mediante un acceso seguro y equitativo a las tierras, a otros recursos de producción e insumos, conocimientos, servicios financieros, mercados y oportunidades para la generación de valor añadido y empleos no agrícolas.",
             "Para 2030, asegurar la sostenibilidad de los sistemas de producción de alimentos y aplicar prácticas agrícolas resilientes que aumenten la productividad y la producción, contribuyan al mantenimiento de los ecosistemas, fortalezcan la capacidad de adaptación al cambio climático, los fenómenos meteorológicos extremos, las sequías, las inundaciones y otros desastres, y mejoren progresivamente la calidad del suelo y la tierra."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 2',
+             'link': 'https://www.un.org/sustainabledevelopment/es/hunger/'}
+        ]
     },
 
     '3': {
@@ -58,7 +61,10 @@ SDG = {
             "Fortalecer la prevención y el tratamiento del abuso de sustancias adictivas, incluido el uso indebido de estupefacientes y el consumo nocivo de alcohol.",
             "Lograr la cobertura sanitaria universal, en particular la protección contra los riesgos financieros, el acceso a los servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas seguros, eficaces, asequibles y de calidad para todos."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 3',
+             'link': 'https://www.un.org/sustainabledevelopment/es/health/'}
+        ]
     },
 
     '4': {
@@ -77,7 +83,10 @@ SDG = {
             "De aquí a 2030, aumentar considerablemente el número de jóvenes y adultos que tienen las competencias necesarias, en particular técnicas y profesionales, para acceder al empleo, el trabajo decente y el emprendimiento.",
             "De aquí a 2030, asegurar que todos los alumnos adquieran los conocimientos teóricos y prácticos necesarios para promover el desarrollo sostenible, entre otras cosas mediante la educación para el desarrollo sostenible y los estilos de vida sostenibles, los derechos humanos, la igualdad de género, la promoción de una cultura de paz y no violencia, la ciudadanía mundial y la valoración de la diversidad cultural y la contribución de la cultura al desarrollo sostenible."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 4',
+             'link': 'https://www.un.org/sustainabledevelopment/es/education/'}
+        ]
     },
 
     '5': {
@@ -97,7 +106,10 @@ SDG = {
             "Eliminar todas las prácticas nocivas, como el matrimonio infantil, precoz y forzado, y la mutilación genital femenina.",
             "Reconocer y valorar los cuidados y el trabajo doméstico no remunerados mediante servicios públicos, infraestructuras y políticas de protección social, y promoviendo la responsabilidad compartida en el hogar y la familia."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 5',
+             'link': 'https://www.un.org/sustainabledevelopment/es/gender-equality/'}
+        ]
     },
 
     '6': {
@@ -117,7 +129,10 @@ SDG = {
             "De aquí a 2030, mejorar la calidad del agua reduciendo la contaminación, eliminando el vertimiento y minimizando la emisión de productos químicos y materiales peligrosos, reduciendo a la mitad el porcentaje de aguas residuales sin tratar y aumentando considerablemente el reciclado y la reutilización sin riesgos a nivel mundial.",
             "De aquí a 2030, aumentar considerablemente el uso eficiente de los recursos hídricos en todos los sectores y asegurar la sostenibilidad de la extracción y el abastecimiento de agua dulce para hacer frente a la escasez de agua y reducir considerablemente el número de personas que sufren falta de agua."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 6',
+             'link': 'https://www.un.org/sustainabledevelopment/es/water-and-sanitation/'}
+        ]
     },
 
     '7': {
@@ -137,7 +152,10 @@ SDG = {
             "De aquí a 2030, aumentar considerablemente la proporción de energía renovable en el conjunto de fuentes renovables.",
             "De aquí a 2030, duplicar la tasa mundial de mejora de la eficiencia energética."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 7',
+             'link': 'https://www.un.org/sustainabledevelopment/es/energy/'}
+        ]
     },
 
     '8': {
@@ -159,7 +177,10 @@ SDG = {
             "De aquí a 2030, reducir considerablemente la proporción de jóvenes que no están empleados y no cursan estudios ni reciben capacitación.",
             "Adoptar medidas inmediatas y eficaces para erradicar el trabajo forzoso, poner fin a las formas contemporáneas de esclavitud y la trata de personas y asegurar la prohibición y eliminación de las peores formas de trabajo infantil, incluidos el reclutamiento y la utilización de niños soldados y, de aquí a 2025, poner fin al trabajo infantil en todas sus formas."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 8',
+             'link': 'https://www.un.org/sustainabledevelopment/es/economic-growth/'}
+        ]
     },
 
     '9': {
@@ -178,7 +199,10 @@ SDG = {
             "Aumentar el acceso de las pequeñas industrias y otras empresas, particularmente en los países en desarrollo, a los servicios financieros, incluidos créditos asequibles, y su integración en las cadenas de valor y los mercados.",
             "Aumentar la investigación científica y mejorar la capacidad tecnológica de los sectores industriales de todos los países, en particular los países en desarrollo, entre otras cosas fomentando la innovación y aumentando considerablemente, de aquí a 2030, el número de personas que trabajan en investigación y desarrollo por millón de habitantes y los gastos de los sectores público y privado en investigación y desarrollo."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 9',
+             'link': 'https://www.un.org/sustainabledevelopment/es/infrastructure/'}
+        ]
     },
 
     '10': {
@@ -198,7 +222,10 @@ SDG = {
             "Adoptar políticas, especialmente fiscales, salariales y de protección social, y lograr progresivamente una mayor igualdad.",
             "Mejorar la reglamentación y vigilancia de las instituciones y los mercados financieros mundiales y fortalecer la aplicación de esos reglamentos."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 10',
+             'link': 'https://www.un.org/sustainabledevelopment/es/inequality/'}
+        ]
     },
 
     '11': {
@@ -218,14 +245,27 @@ SDG = {
             "De aquí a 2030, reducir significativamente el número de muertes causadas por los desastres, incluidos los relacionados con el agua, y de personas afectadas por ellos, y reducir considerablemente las pérdidas económicas directas provocadas por los desastres en comparación con el producto interno bruto mundial, haciendo especial hincapié en la protección de los pobres y las personas en situaciones de vulnerabilidad.",
             "De aquí a 2030, reducir el impacto ambiental negativo per cápita de las ciudades, incluso prestando especial atención a la calidad del aire y la gestión de los desechos municipales y de otro tipo."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 11',
+             'link': 'https://www.un.org/sustainabledevelopment/es/cities/'}
+        ]
     },
     
     '12': {
         'long-title': 'Garantizar modalidades de consumo y producción sostenibles',
         'short-title': 'Producción y Consumo Responsables',
         'main-image': 'S_SDG_inverted_WEB-12',
-        'main-description': [],
+        'main-description': [
+            "De acuerdo con las Naciones Unidas, si la población mundial alcanza las 9.600 millones de personas en 2050, para mantener el actual estilo de vida será necesario el equivalente a casi tres planetas.",
+            "En los próximos decenios, se espera que más personas se sumen a la clase media en todo el mundo. Esto es bueno para la prosperidad individual, pero aumentará la demanda de recursos naturales, ya limitados.",
+            "El consumo y la producción mundiales dependen del uso del medio ambiente natural y de los recursos de una manera insostenible. El progreso económico y social conseguido durante el último siglo ha estado acompañado de una degradación medioambiental que está poniendo en peligro los mismos sistemas de los que depende nuestro desarrollo futuro.",
+            "Menos del 3% del agua del mundo es fresca; 2,5% está congelada en la Antártida, el Ártico y los glaciares. Por lo tanto, la humanidad únicamente cuenta con el 0,5% para todas las necesidades del ecosistema y del ser humano. Lamentablemente, se está contaminando el agua más rápido de lo que la naturaleza puede reciclar y purificar el agua en ríos y lagos.",
+            "Si bien los impactos ambientales más graves en los alimentos se producen en la fase de producción - agricultura y procesamiento de alimentos -, los hogares influyen en estos impactos a través de sus hábitos y elecciones dietéticas. Esto, en consecuencia, afecta el medio ambiente a través del consumo de energía relacionada con los alimentos y la generación de residuos. La degradación de la tierra, la disminución de la fertilidad del suelo, el uso insostenible del agua, la sobrepesca y la degradación del medio marino están disminuyendo la capacidad de la base de recursos naturales para suministrar alimentos.",
+            "La Huella Ecológica suma todos los servicios ecológicos que demandan las personas que compiten por el espacio. Incluye el área biológicamente productiva (o biocapacidad) necesaria para cultivos, pastizales, áreas edificadas, caladeros y productos forestales. También incluye el área de bosque necesaria para absorber las emisiones de dióxido de carbono que no pueden ser absorbidas por el océano. Tanto la biocapacidad como la Huella Ecológica se expresan en una unidad común denominada hectárea global (gha).",
+            "En 2012, la biocapacidad total de la Tierra era de 12 200 millones de gha, o 1,7 gha por persona, mientras que la Huella Ecológica de la humanidad era de 20 100 millones de gha, o 2,8 gha por persona.",
+            "La Huella Ecológica se distribuye de manera desigual, y los residentes de los países de altos ingresos ejercen una presión desproporcionada sobre la naturaleza, ya que utilizan más de lo que les corresponde de los recursos de la Tierra.",
+            "La huella de carbono es la cantidad total de gases de efecto invernadero que generan nuestras acciones. La huella de carbono promedio de una persona en los Estados Unidos es de 16 toneladas, una de las tasas más altas del mundo. A nivel mundial, la huella de carbono promedio está más cerca de las 4 toneladas. Para tener la mejor oportunidad de evitar un aumento de 2 ℃ en las temperaturas globales, la huella de carbono global promedio por año debe reducirse a menos de 2 toneladas para 2050."
+        ],
         'goals':[
             "De aquí a 2030, lograr la gestión sostenible y el uso eficiente de los recursos naturales.",
             "De aquí a 2030, reducir a la mitad el desperdicio de alimentos per cápita mundial en la venta al por menor y a nivel de los consumidores y reducir las pérdidas de alimentos en las cadenas de producción y suministro, incluidas las pérdidas posteriores a la cosecha.",
@@ -233,55 +273,90 @@ SDG = {
             "Alentar a las empresas, en especial las grandes empresas y las empresas transnacionales, a que adopten prácticas sostenibles e incorporen información sobre la sostenibilidad en su ciclo de presentación de informes.",
             "De aquí a 2030, asegurar que las personas de todo el mundo tengan la información y los conocimientos pertinentes para el desarrollo sostenible y los estilos de vida en armonía con la naturaleza."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 12',
+             'link': 'https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/'}
+        ]
     },
 
     '13': {
         'long-title': 'Adoptar medidas urgentes para combatir el cambio climático y sus efectos',
         'short-title': 'Acción por el Clima',
         'main-image': 'S_SDG_inverted_WEB-13',
-        'main-description': [],
+        'main-description': [
+            "Dado el tremendo tamaño y la capacidad calorífica de los océanos globales, se necesita una gran cantidad de energía térmica para elevar la temperatura promedio anual de la superficie de la Tierra, incluso en una pequeña cantidad. El aumento de aproximadamente 1 grado Celsius en la temperatura global promedio de la superficie que ha ocurrido desde la era preindustrial (1880-1900) puede parecer pequeño, pero significa un aumento significativo en el calor acumulado.",
+            "Ese calor adicional está provocando temperaturas extremas regionales y estacionales, reduciendo la capa de nieve y el hielo marino, intensificando las fuertes lluvias y cambiando los rangos de hábitat para plantas y animales, expandiendo algunos y reduciendo otros.",
+            "De acuerdo con el Grupo Intergubernamental de Expertos sobre el Cambio Climático; por cada grado que aumenta la temperatura, la producción de cereales se reduce un 5% aproximadamente. Se ha producido una reducción significativa en la producción de maíz, trigo y otros cultivos importantes, de 40 megatones anuales a nivel mundial entre 1981 y 2002 debido a un clima más cálido.",
+            "Además, entre 1901 y 2010, el nivel medio del mar aumentó 19 cm, pues los océanos se expandieron debido al calentamiento y al deshielo. Se prevé una elevación media del nivel del mar de entre 24 y 30 cm para 2065 y entre 40 y 63 cm para 2100."
+        ],
         'goals':[
             "Fortalecer la resiliencia y la capacidad de adaptación a los riesgos relacionados con el clima y los desastres naturales en todos los países.",
             "Incorporar medidas relativas al cambio climático en las políticas, estrategias y planes nacionales.",
             "Mejorar la educación, la sensibilización y la capacidad humana e institucional respecto de la mitigación del cambio climático, la adaptación a él, la reducción de sus efectos y la alerta temprana."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 13',
+             'link': 'https://www.un.org/sustainabledevelopment/es/climate-change-2/'}
+        ]
     },
 
     '14': {
         'long-title': 'Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos',
         'short-title': 'Vida Submarina',
         'main-image': 'S_SDG_inverted_WEB-14',
-        'main-description': [],
+        'main-description': [
+            "La vida depende de los océanos. Estos constituyen el ecosistema más grande del planeta, el cual cubre más de dos tercios de la superficie de la Tierra, y proporcionan alimentos y medios de subsistencia a miles de millones de personas.",
+            "Los océanos producen aproximadamente la mitad del oxígeno que respiramos y actúan como reguladores del clima, absorbiendo el calor atmosférico y más de una cuarta parte del CO2 producido por el hombre.",
+            "Sin embargo, décadas de aumento de las emisiones de carbono han provocado una acumulación de calor en los océanos y cambios en su composición química. Los efectos adversos resultantes de la acidificación de los océanos, el cambio climático y la erosión costera amenazan los recursos marinos y costeros por la sobrepesca, la contaminación y la degradación del hábitat.",
+            "La contaminación marina es un problema creciente en el mundo actual. Nuestro océano se está inundando con dos tipos principales de contaminación: productos químicos y basura.",
+            "La contaminación química, o contaminación por nutrientes, es preocupante por razones de salud, ambientales y económicas. Este tipo de contaminación ocurre cuando las actividades humanas, en particular el uso de fertilizantes en las granjas, provocan la escorrentía de productos químicos en las vías fluviales que finalmente desembocan en el océano.",
+            "La basura marina abarca todos los productos manufacturados, la mayoría de ellos plásticos, que terminan en el océano. Los desechos plásticos son particularmente problemáticos como contaminantes porque son muy duraderos. Los artículos de plástico pueden tardar cientos de años en descomponerse. Los pequeños organismos se alimentan de pequeños trozos de plástico descompuesto, llamados microplásticos, y absorben las sustancias químicas del plástico en sus tejidos."
+        ],
         'goals':[
             "Prevenir y reducir significativamente la contaminación marina de todo tipo, en particular la producida por actividades realizadas en tierra, incluidos los detritos marinos y la polución por nutrientes.",
             "Minimizar y abordar los efectos de la acidificación de los océanos.",
             "Reglamentar eficazmente la explotación pesquera y poner fin a la pesca excesiva, la pesca ilegal, no declarada y no reglamentada y las prácticas pesqueras destructivas, y aplicar planes de gestión con fundamento científico a fin de restablecer las poblaciones de peces en el plazo más breve posible, al menos alcanzando niveles que puedan producir el máximo rendimiento sostenible de acuerdo con sus características biológicas.",
             "Prohibir ciertas formas de subvenciones a la pesca que contribuyen a la sobrecapacidad y la pesca excesiva, eliminar las subvenciones que contribuyen a la pesca ilegal, no declarada y no reglamentada y abstenerse de introducir nuevas subvenciones de esa índole."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 14',
+             'link': 'https://www.un.org/sustainabledevelopment/es/oceans/'}
+        ]
     },
 
     '15': {
         'long-title': 'Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras, detener la pérdida de biodiversidad',
         'short-title': 'Vida de Ecosistemas Terrestres',
         'main-image': 'S_SDG_inverted_WEB-15',
-        'main-description': [],
+        'main-description': [
+            "A medida que aumentan las temperaturas globales y la población humana se expande, una mayor parte del planeta es vulnerable a la desertificación, la degradación permanente de la tierra que alguna vez fue cultivable.",
+            "Si bien las interpretaciones del término desertificación varían, la preocupación se centra en la degradación de la tierra causada por el hombre en áreas con precipitaciones escasas o variables conocidas como tierras secas: tierras áridas, semiáridas y subhúmedas. Estas tierras secas representan más del 40 por ciento de la superficie terrestre del mundo.",
+            "Aunque la degradación de la tierra ha ocurrido a lo largo de la historia, el ritmo se ha acelerado, alcanzando de 30 a 35 veces la tasa histórica. Esta degradación tiende a ser impulsada por una serie de factores, que incluyen la urbanización, la minería, la agricultura y la ganadería.",
+            "Más del 75 por ciento de la superficie terrestre de la Tierra ya está degradada, según el Atlas Mundial de Desertificación de la Comisión Europea, y más del 90 por ciento podría degradarse para 2050. El Centro Conjunto de Investigación de la comisión encontró que un área total de la mitad del tamaño de la Unión Europea se degrada anualmente, siendo África y Asia los más afectados.",
+            "La pérdida de biodiversidad se refiere a la disminución o desaparición de la diversidad biológica, entendida esta última como la variedad de seres vivos que habitan el planeta, sus distintos niveles de organización biológica y su respectiva variabilidad genética, así como los patrones naturales presentes en los ecosistemas. A mediados de 2019, la Organización de las Naciones Unidas, en colaboración con IPBES, presentó un informe sobre biodiversidad en el que advertía que un millón de especies — de un total que ronda los ocho millones — está en peligro de extinción."
+        ],
         'goals':[
             "Velar por la conservación, el restablecimiento y el uso sostenible de los ecosistemas terrestres y los ecosistemas interiores de agua dulce y los servicios que proporcionan, en particular los bosques, los humedales, las montañas y las zonas áridas.",
             "Luchar contra la desertificación, rehabilitar las tierras y los suelos degradados, incluidas las tierras afectadas por la desertificación, la sequía y las inundaciones, y procurar lograr un mundo con una degradación neutra del suelo.",
             "Adoptar medidas urgentes y significativas para reducir la degradación de los hábitats naturales, detener la pérdida de la diversidad biológica y, para 2020, proteger las especies amenazadas y evitar su extinción.",
             "Promover la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos y promover el acceso adecuado a esos recursos."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 15',
+             'link': 'https://www.un.org/sustainabledevelopment/es/biodiversity/'}
+        ]
     },
 
     '16': {
         'long-title': 'Promover sociedades justas, pacíficas e inclusivas',
         'short-title': 'Paz, Justicia e Instituciones Sólidas',
         'main-image': 'S_SDG_inverted_WEB-16',
-        'main-description': [],
+        'main-description': [
+            "A fin de avanzar en la consecución de los Objetivos de Desarrollo Sostenible, necesitamos instituciones públicas eficaces e inclusivas que puedan proporcionar educación y asistencia sanitaria de calidad, aplicar políticas económicas justas y brindar una protección inclusiva del medio ambiente.",
+            "La libertad para expresar las propias opiniones, en privado y en público, debe estar garantizada. Las personas deben poder participar en el proceso de adopción de las decisiones que afectan a sus vidas. Las leyes y las políticas deben aplicarse sin ningún tipo de discriminación. Las controversias deben resolverse mediante sistemas de justicia y política que funcionen bien. Las instituciones nacionales y locales deben rendir cuentas y tienen que prestar servicios básicos a las familias y las comunidades de manera equitativa y sin necesidad de sobornos.",
+            "En 2018, el número de personas que huían de la guerra, la persecución y el conflicto superó los 70 millones, el nivel más alto que ha visto el Alto Comisionado de las Naciones Unidas para los Refugiados en casi 70 años. Todos son particularmente vulnerables a diversas formas de abuso, incluida la trata, la violencia y la toma de decisiones no inclusiva.",
+            "La inseguridad continúa suponiendo una grave amenaza para el desarrollo sostenible. Del 1 de enero al 31 de octubre de 2018, Naciones Unidas registró y verificó 397 asesinatos de defensores de los derechos humanos, periodistas y sindicalistas en 41 países. Cada semana, un promedio de nueve personas fueron asesinadas en la primera línea de los esfuerzos para construir sociedades más inclusivas e igualitarias, un aumento preocupante del promedio de una víctima por día entre 2015 y 2017. Una de cada dos víctimas había estado trabajando con las comunidades en temas relacionados con la tierra, el medio ambiente, la pobreza, los derechos de las minorías y los pueblos indígenas, o el impacto de las actividades comerciales."
+        ],
         'goals':[
             "Reducir significativamente todas las formas de violencia y las correspondientes tasas de mortalidad en todo el mundo.",
             "De aquí a 2030, reducir significativamente las corrientes financieras y de armas ilícitas, fortalecer la recuperación y devolución de los activos robados y luchar contra todas las formas de delincuencia organizada.",
@@ -290,14 +365,20 @@ SDG = {
             "Ampliar y fortalecer la participación de los países en desarrollo en las instituciones de gobernanza mundial.",
             "Garantizar el acceso público a la información y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 16',
+             'link': 'https://www.un.org/sustainabledevelopment/es/peace-justice/'}
+        ]
     },
 
     '17': {
         'long-title': 'Revitalizar la Alianza Mundial por el Desarrollo Sostenible',
         'short-title': 'Alianzas para Lograr los Objetivos',
         'main-image': 'S_SDG_inverted_WEB-17',
-        'main-description': [],
+        'main-description': [
+            "En 2015, los líderes del mundo aprobaron la Agenda 2030 para el Desarrollo Sostenible, que tiene por objeto poner fin a la pobreza, reducir las desigualdades y combatir el cambio climático. Para alcanzar los Objetivos de Desarrollo Sostenible, debemos unirnos todos —los gobiernos, la sociedad civil, los científicos, el mundo académico y el sector privado.",
+            "Se necesitan inversiones a largo plazo, incluida la inversión extranjera directa, en áreas críticas, especialmente en los países en desarrollo. Estas áreas incluyen energía sostenible, infraestructura y transporte, así como tecnologías de la información y la comunicación."
+        ],
         'goals':[
             "Velar por que los países desarrollados cumplan plenamente sus compromisos en relación con la asistencia oficial para el desarrollo, incluido el compromiso de numerosos países desarrollados de alcanzar el objetivo de destinar el 0.7% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los países en desarrollo y entre el 0,15% y el 0,20% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los países menos adelantados.",
             "Ayudar a los países en desarrollo a lograr la sostenibilidad de la deuda a largo plazo con políticas coordinadas orientadas a fomentar la financiación, el alivio y la reestructuración de la deuda, según proceda, y hacer frente a la deuda externa de los países pobres muy endeudados a fin de reducir el endeudamiento excesivo.",
@@ -307,6 +388,9 @@ SDG = {
             "Mejorar el apoyo a la creación de capacidad prestado a los países en desarrollo, incluidos los países menos adelantados y los pequeños Estados insulares en desarrollo, para aumentar significativamente la disponibilidad de datos oportunos, fiables y de gran calidad desglosados por ingresos, sexo, edad, raza, origen étnico, estatus migratorio, discapacidad, ubicación geográfica y otras características pertinentes en los contextos nacionales.",
             "Aprovechar las iniciativas existentes para elaborar indicadores que permitan medir los progresos en materia de desarrollo sostenible y complementen el producto interno bruto, y apoyar la creación de capacidad estadística en los países en desarrollo."
         ],
-        'links':[]
+        'links':[
+            {'link-name': 'Naciones Unidas - Objetivo 17',
+             'link': 'https://www.un.org/sustainabledevelopment/es/globalpartnerships/'}
+        ]
     }
 }
