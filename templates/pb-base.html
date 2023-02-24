@@ -8,20 +8,22 @@
     <div class="container text-center p-1">
         <h3>Limites Planetarios</h3>
         <br>
-        <p class="text-secondary">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eum, esse excepturi repellendus minima modi molestiae earum sint facilis provident quos qui vel possimus eaque iusto ab ratione omnis ut.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit aut voluptas facere consectetur hic assumenda tempore, deserunt fugiat pariatur dolorem, ipsa reiciendis, molestiae earum accusamus eum itaque dicta praesentium.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos pariatur molestiae ad nihil laudantium, tempore recusandae atque laboriosam vero numquam reprehenderit libero voluptas saepe esse deleniti id repellat, dolorem minus!
+        <p class="text-secondary p-3">
+            La estabilidad ambiental del Holoceno - el presente periodo interglacial que comenzó 11,700 años antes del año 2000 - permitió el desarrollo y éxito de la agricultura y de sociedades complejas. Desde entonces, nuestro planeta se ha mantenido dentro del dominio de estabilidad climática.<br>
+            Desde el comienzo de la revolución industrial, las actividades humanas han empujado múltiples sistemas claves fuera del rango de estabilidad del Holoceno.<br>
+            El planeta tierra ha entrado a una nueva época - el Antropoceno - en la cual los humanos representan el principal factor de cambio para los sistemas terrestres. El crecimiento exponencial de las actividades humanas amenaza con presionar los sistemas de nuestro planeta al grado de provocar una desestabilización de sistemas biofísicos críticos y provocar cambios ambientales violentos e irreversibles, con consecuencias catastróficas para el bienestar humano.<br>
+            Este dilema es bastante profundo, pues el presente paradigma del desarrollo social y económico parece ignorar el inminente riesgo de catástrofes ambientales producidas por nuestras actividades.<br>
         </p>
-        <br>
+        <p>El Antropoceno nos obliga a preguntarnos:</p>
+        <p>¿Cuáles son las condiciones planetarias no negociables que la humanidad debe respetar para evitar el riesgo de desencadenar bruscos cambios ambientales a nivel continental o global?</p>
     </div>
 </div>
 
-<section class="pt-5">
+<section class="py-5">
     <div class="container">
         <div class="d-flex flex-wrap justify-content-center justify-content-md-between">
             {%for b in pb%}
-            <div class="card mb-5 text-center" style="width: 25rem;">   
+            <div class="card mb-5 text-center bg-light" style="width: 25rem;">   
                 <div class="card-body">
                   <h5 class="card-title mb-3">{{pb[b]['pb-title']}}</h5>
                   <hr>
@@ -33,7 +35,7 @@
                       <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}">{{ pb[b]['current'] }}</li>
                     </ul>
                   </div>
-                  <a href="{{ url_for('limit',limit_id=b) }}" class="btn btn-dark btn-lg">Aprende +</a>
+                  <a href="{{ url_for('limit',limit_id=b) }}" class="btn btn-dark">Aprende +</a>
                 </div>
             </div>
             {%endfor%}
@@ -41,6 +43,21 @@
     </div>
 </section>
 
+<div class="container text-center">
+  <h3>Más Información:</h3>
+  <p>Debido a la limitada extensión del trabajo, el enfoque y desarrollo de los conceptos están acotados; sin embargo, si se desea profundizar en los temas mencionados se recomienda consultar las siguientes tres publicaciones:</p>
+  <div class="ref-cards">
+      <div class="card my-3">
+          <div class="card-body text-dark">Planetary Boundaries: Exploring the Safe Operating Space for Humanity. Publicado en la revista Ecology and Society por Johan Rockström, Will Steffen y colaboradores.</div>
+      </div>
+      <div class="card my-3">
+          <div class="card-body text-dark">Outside the Safe Operating Space of the Planetary Boundary for Novel Entities. Publicado en la revista Environmental Science and Technology por Linn Persson y colaboradores.</div>
+      </div>
+      <div class="card my-3">
+          <div class="card-body text-dark">Planetary boundaries: Guiding human development on a changing planet. Publicado en la revista Science por Will Steffen y colaboradores.</div>     
+      </div>
+  </div>
+</div>
 
 
 {%endblock%}
