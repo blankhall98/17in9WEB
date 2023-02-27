@@ -15,7 +15,7 @@
             Este dilema es bastante profundo, pues el presente paradigma del desarrollo social y económico parece ignorar el inminente riesgo de catástrofes ambientales producidas por nuestras actividades.<br>
         </p>
         <p>El Antropoceno nos obliga a preguntarnos:</p>
-        <p>¿Cuáles son las condiciones planetarias no negociables que la humanidad debe respetar para evitar el riesgo de desencadenar bruscos cambios ambientales a nivel continental o global?</p>
+        <p><b>¿Cuáles son las condiciones planetarias no negociables que la humanidad debe respetar para evitar el riesgo de desencadenar bruscos cambios ambientales a nivel continental o global?</b></p>
     </div>
 </div>
 
@@ -31,12 +31,14 @@
                   <p class="card-text">{{pb[b]['small-description']}}</p>
                   <div class="card mb-3">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Limite Cuantificado: {{ pb[b]['limit'] }}</li>
-                      <li class="list-group-item">Estado Actual:</li>
-                      <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}">{{ pb[b]['current'] }}</li>
+                      <li class="list-group-item"><b>Variable de Control: </b><br> {{ pb[b]['control']}}</li>
+                      <li class="list-group-item"><b>Limite Planetario:</b><br>{{ pb[b]['limit'] }}</li>
+                      <li class="list-group-item {{'bg-{}'.format(pb[b]['status']) }}"><b>Estado Actual:</b><br>{{ pb[b]['current'] }}</li>
                     </ul>
                   </div>
+                  <!--
                   <a href="{{ url_for('limit',limit_id=b) }}" class="btn btn-dark">Aprende +</a>
+                  -->
                 </div>
             </div>
             {%endfor%}
